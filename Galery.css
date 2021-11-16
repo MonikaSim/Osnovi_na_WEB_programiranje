@@ -1,5 +1,5 @@
 body {
-    background: url("background7.jpeg");
+    background: rgb(185, 238, 238);
     height: 100vh;
     -webkit-background-size: cover;
     background-size: cover;
@@ -17,7 +17,7 @@ body {
      display: inline-block;
  }
  .nav-area li a{
-     color: rgb(219, 9, 107);
+     color: rgb(236, 47, 180);
      text-decoration: none;
      padding: 5px 20px;
      font-family: poppins;
@@ -54,8 +54,71 @@ body {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: rgb(243, 26, 127);}
+  .dropdown-content a:hover {background-color: rgb(247, 176, 209);}
   
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: rgb(255, 255, 255);}
+
+ /*NEW*/
+  
+  #com1, #com2, #com3, #com4, #com5{
+    margin-left: 20px;
+  }
+  .center {
+          background: rgba(247, 139, 232, 0.8);
+                  text-align: center;
+                  margin-top: 30px;
+                  margin-right: 220px;
+                  margin-left: 220px;
+                  border-radius: 5px;
+                  height: max-content;
+        }
+  .center img {
+          margin-right: 1em;
+                  margin-left: 0.5em;
+                  width: 400px;
+                  height: 450px;
+                  border-radius: 6px;
+                  margin-top: 30px;
+        }
+        
+  .like{
+          color: #dd1f9e;
+          margin-left: 650px;
+          font-size: 1em;
+       }
+#counter1,#counter2,#counter3,#counter4, #counter5, #counter6, #counter7, #counter8, #counter9, #counter10{
+          color:#ddd6d6 ;
+        }
+  .like {
+          display: block;
+          margin-top: 30px;
+          margin-left: 33%;
+          margin-right: auto;
+          width: 5%;
+        }
+        .fa-heart {
+          color: #e60480;
+          
+        }
+        .fa-heart:hover{
+          color: rgb(183, 240, 221);
+        }
+         
+.komentar{
+          background: none;
+          border: none;
+          border-bottom:#cadef1 solid 1px ;
+          color: #000000;
+        }
+.pom{
+        color:  #cddceb;
+        background: none;
+        border: none;
+                 
+              }
+.pom:hover{
+            color: white;
+          }
+       

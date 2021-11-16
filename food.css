@@ -7,7 +7,7 @@
 
   body {
     display: grid;
-    background: linear-gradient(-45deg, rgb(235, 38, 120), rgb(224, 112, 168), rgb(26, 219, 226), rgb(0, 255, 242));
+    background: linear-gradient(-45deg, rgb(228, 8, 92), rgb(255, 91, 173), rgb(247, 156, 224), rgb(219, 171, 219));
     background-size: 3000% 3000%;
     /*Animation for background*/
     animation: gradient 10s ease-in-out infinite;
@@ -122,7 +122,7 @@ h1     {
         column-count: 3;
     }
 }
-@media screen and (max-witdh:425px){
+@media screen and (max-witdh:325px){
     .Foods{
         column-count: 2;
     }
@@ -130,7 +130,7 @@ h1     {
         font-size: 12px;
     }
 }
-@media screen and (max-witdh:375px){
+@media screen and (max-witdh:425px){
     .Foods{
         column-count: 1;
     }
