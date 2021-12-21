@@ -92,3 +92,11 @@ img    {
    transform: scale(3,3);
 }
 */
+
+/* play list */
+.iframe {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  
+}

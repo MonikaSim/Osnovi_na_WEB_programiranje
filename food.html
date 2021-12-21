@@ -7,13 +7,34 @@
         <link rel = "icon" alt = "https://lh3.googleusercontent.com/proxy/irw8a7QM1rS50CGyJYwRN4GJyKvKhs1yNgTYU1nd7d7dv4IFKpKtk2vVv4U2oItt9ajbi0UmLJiZIbOBWPjxEe1RBXm1ZsdAvpI3knQwWdLPK6w" type = "image/x-icon">
       <link rel = "stylesheet" href = "food.css">
     </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script> 
+      $(document).ready(function(){
+        $("#flip").click(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+      </script>
+      <style> 
+      #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: rgba(235, 176, 209, 0.973);
+        border: solid 1px #e058dc;
+      }
+      
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+      </style>
     <body>
         <header>
             <div class = "wrapper">
                 <ul class= "nav-area">
                     <li><a href = "proekt.html">Home</a></li>
                     <li><a href = "about.html">About</a></li>
-                    <li><a href = "Galery.html">Galery</a></li>
+                    <li><a href = "Gallery.html">Gallery</a></li>
                     <li><a href = "Blog.html">Blog</a></li>
                     <li><a href = "Contact.html">Contact</a></li>
                     <div class="dropdown">
@@ -136,5 +157,33 @@
         </div>
      
     </div>
+<br><br>
+<div id="flip">
+    Quick  recipes</div>
+<div id="panel"><b>1.Quick peach Melba crumbles</b><br><br>
+    Ingredients<br>
+    - 410g can sliced peaches in syrup<br>
+   - 1 tbsp butter<br>
+    - 150g raspberries<br>
+    - 100ml whipping cream<br>
+    - ½ tbsp icing sugar<br>
+    - 100g granola<br><br>
+<p> <b>2.Mexi-Chicken Avocado Cups</b><br><br>
+    - 3 (6 ounce) cans canned chicken, drained<br>
+    - 1 tablespoon cilantro, finely chopped<br>
+    - ½ teaspoon chili powder, or more to taste<br>
+    - 3 avocados, halved lengthwise and pitted<br>
+    - 1 teaspoon lime juice, or to taste<br></p><br>
+<p> <b>3.Cheesy-Crust Skillet Pizza</b><br><br>
+    - 1 ½ cups shredded part-skim mozzarella cheese<br>
+    - 5 cherry tomatoes, thinly sliced<br>
+    - 2 tablespoons torn fresh basil leaves<br>
+    - 4 small fresh mozzarella balls (bocconcini), thinly sliced<br></p></div>
+
+<br><br><br>
+<br><br>
+
+
+<br>
     </body>
 </html>

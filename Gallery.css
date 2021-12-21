@@ -1,0 +1,121 @@
+*{ margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ 
+ .nav-area{
+   float: right;
+   list-style: none;
+   margin-top: 30px;
+ }
+ .nav-area li{
+   display: inline-block;
+ }
+ .nav-area li a{
+   color: rgb(19, 198, 221);
+   text-decoration: none;
+   padding: 5px 20px;
+   font-family: poppins;
+   font-size: 16px;
+ }
+ .nav-area li:hover{
+  background: rgb(255, 174, 228);
+  color: rgb(228, 195, 211);
+ }
+ 
+ .dropbtn {
+  padding: 5px 20px;
+  font-size: 16px;
+  border: none;
+ }
+ 
+ .dropdown {
+  position: relative;
+  display: inline-block;
+ }
+ 
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  z-index: 1;
+ }
+ 
+ .dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+ 
+ .dropdown-content a:hover {background-color: rgba(158, 203, 255, 0.8);}
+ 
+ .dropdown:hover .dropdown-content {display: block;}
+ 
+ .dropdown:hover .dropbtn {background-color: rgb(255, 255, 255);}
+ body{
+   margin:0;
+   padding: 0;
+   background: rgb(255, 201, 223)
+   
+ }
+ .box { 
+ width:450px;
+ position: relative;
+ background: pic(0,0,0,0.4);
+ padding:40px;
+ text-align: center;
+ margin:auto;
+ margin-top: 5%;
+ color:rgb(255, 255, 255);
+ font-family: 'Courier New', Courier, sans-serif;
+ }
+ 
+ .box p{
+   text-align: justify;
+ 
+ }
+ p{
+   text-align: center;
+ }
+ 
+ h2{
+   font-family: 'Courier New', Courier, monospace;
+   color:rgb(219, 120, 153);
+   font-size: 35px;
+   text-align: center;
+ }
+ .pic { 
+  
+   margin-right: 1em;
+   margin-left: 0.5em;
+   width: 400px;
+   height: 450px;
+   border-radius: 6px;
+   margin-top: 30px;
+   }
+   .pic:hover { 
+   z-index: 1;
+   -ms-transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+   }
+ .frame{
+   background: rgba(158, 203, 255, 0.8);
+           text-align: center;
+           margin-top: 30px;
+           margin-right: 220px;
+           margin-left: 220px;
+           border-radius: 5px;
+           height: max-content;
+           width:450px;
+ 
+ background: pic(0,0,0,0.4);
+ padding:40px;
+ text-align: center;
+ margin:auto;
+ margin-top: 5%;
+ 
+ 
+ }

@@ -1,103 +1,154 @@
-*{ margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-}
 
-.nav-area{
-  float: right;
-  list-style: none;
-  margin-top: 30px;
-}
-.nav-area li{
-  display: inline-block;
-}
-.nav-area li a{
-  color: rgb(19, 198, 221);
-  text-decoration: none;
-  padding: 5px 20px;
-  font-family: poppins;
-  font-size: 16px;
-}
-.nav-area li:hover{
- background: rgb(255, 255, 255);
- color: rgb(218, 63, 140);
+ .nav-area{
+     float: right;
+     list-style: none;
+     margin-top: 30px;
+ }
+ .nav-area li{
+     display: inline-block;
+ }
+ .nav-area li a{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     padding: 5px 20px;
+     font-family: poppins;
+     font-size: 16px;
+ }
+ .nav-area li:hover{
+    background: rgb(238, 120, 203);
+    color: rgb(97, 12, 55);
 }
 
 .dropbtn {
- padding: 5px 20px;
- font-size: 16px;
- border: none;
-}
-
-.dropdown {
- position: relative;
- display: inline-block;
-}
-
-.dropdown-content {
- display: none;
- position: absolute;
- min-width: 160px;
- box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
- z-index: 1;
-}
-
-.dropdown-content a {
- color: rgb(255, 255, 255);
- padding: 12px 16px;
- text-decoration: none;
- display: block;
-}
-
-.dropdown-content a:hover {background-color: rgb(51, 174, 223);}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: rgb(255, 255, 255);}
-body{
-  margin:0;
-  padding: 0;
-  background: pink
+    padding: 5px 20px;
+    font-size: 16px;
+    border: none;
+  }
   
-}
-.box { 
-width:450px;
-position: relative;
-background: pic(0,0,0,0.4);
-padding:40px;
-text-align: center;
-margin:auto;
-margin-top: 5%;
-color:rgb(11, 224, 196);
-font-family: 'Courier New', Courier, sans-serif;
-}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 119, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(0, 0, 0);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(255, 255, 255);}
 
-.box p{
-  text-align: justify;
 
-}
-p{
-  text-align: center;
-}
-
-h2{
-  font-family: 'Courier New', Courier, monospace;
-  color:palevioletred;
-  font-size: 35px;
-  text-align: center;
-}
-.pic { 
  
-  margin-right: 1em;
-  margin-left: 0.5em;
-  width: 400px;
-  height: 450px;
-  border-radius: 6px;
-  margin-top: 30px;
+  .row{
+    display: flex;
+    flex-wrap: wrap;
   }
-  .pic:hover { 
-  z-index: 1;
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  .section-title{
+  
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 60px;
+
   }
+  .section-title h1 {
+    font-size: 45px;
+    color: #c04b86;
+    font-weight: 700;
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  .Travel-Blog{
+    padding: 80px 0 80px;
+
+  }
+  .Travel-Blog .blog-content{
+    flex: 0 0 100%;
+    max-width:  100%;
+    position: relative;
+  }
+ 
+  .Travel-Blog .blog-item i{
+    display: none;
+
+  }
+  .Travel-Blog .blog-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .Travel-Blog .blog-item:last-child{
+    margin-bottom: 0;
+  }
+  .Travel-Blog .blog-item:nth-child(even){
+    flex-direction: row-reverse;
+  }
+ 
+  .Travel-Blog .blog-text,
+  .Travel-Blog .blog-img{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .Travel-Blog .blog-text h2{
+    font-size: 24px;
+    margin: 0 0 8px;
+    color: rgb(245, 101, 185);
+    font-weight: 500;
+    text-transform: capitalize;
+
+  }
+  .Travel-Blog .blog-text p{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    color: #555555;
+  }
+  .card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover{
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  }
+  .container-gallery{
+    padding: px 16px;
+  }
+  body {
+  font-family: "Gotham";
+  background-color: rgba(241, 211, 255, 0.973);
+  }
+
+  @media (max-width: 550px){
+    .share-btn-container{
+      transform:unset;
+      top:unset;
+      left:0;
+      bottom:0;
+      widows: 100%;
+      flex-direction:row;
+      box-shadow: 4px 0 8px rgba(211, 3, 159, 0.2);
+      padding: 40px 0;
+      justify-content: center;
+    }
+    .share-btn-container a{
+      margin:0 32px;
+    }
